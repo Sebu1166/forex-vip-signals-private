@@ -2,7 +2,8 @@ console.log("Languages loaded");
 function setLanguage(lang) {
     const title = document.getElementById("title");
 const vipButton = document.getElementById("vipButton");
-    
+const markets = document.getElementById("markets");
+const timeframes = document.getElementById("timeframes");    
 
     if (lang === "en") {
     title.innerText = "PREMIUM VIP SIGNALS";
