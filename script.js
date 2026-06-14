@@ -30,9 +30,20 @@ const stats3 = document.getElementById("stats3");
 }
 
     if (lang === "ru") {
-        title.innerText = "ПРЕМИУМ VIP СИГНАЛЫ";
-        vipButton.innerText = "ПОЛУЧИТЬ VIP ДОСТУП";
-    }
+    title.innerText = "ПРЕМИУМ VIP СИГНАЛЫ";
+    vipButton.innerText = "ПОЛУЧИТЬ VIP ДОСТУП";
+
+    trustTitle.innerText = "Почему выбирают нас?";
+    trust1.innerText = "✅ Реальный анализ рынка";
+    trust2.innerText = "✅ TP и SL включены";
+    trust3.innerText = "✅ Специальные сигналы XAU/USD M5";
+    trust4.innerText = "✅ Доступ к приватному Telegram";
+
+    statsTitle.innerText = "Результаты за последние 30 дней";
+    stats1.innerText = "📈 Процент побед: 87%";
+    stats2.innerText = "⚖️ Средний RR: 1:2.3";
+    stats3.innerText = "📊 Сигналов: 126";
+                                           }
 
     if (lang === "tr") {
         title.innerText = "PREMIUM VIP SİNYALLER";
