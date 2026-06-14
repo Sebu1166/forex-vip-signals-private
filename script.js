@@ -46,7 +46,18 @@ const stats3 = document.getElementById("stats3");
                                            }
 
     if (lang === "tr") {
-        title.innerText = "PREMIUM VIP SİNYALLER";
-        vipButton.innerText = "VIP ERİŞİM AL";
+    title.innerText = "PREMIUM VIP SİNYALLER";
+    vipButton.innerText = "VIP ERİŞİM AL";
+
+    trustTitle.innerText = "Neden Bizi Seçmelisiniz?";
+    trust1.innerText = "✅ Gerçek piyasa analizi";
+    trust2.innerText = "✅ TP ve SL dahil";
+    trust3.innerText = "✅ XAU/USD M5 özel sinyalleri";
+    trust4.innerText = "✅ Özel Telegram erişimi";
+
+    statsTitle.innerText = "Son 30 Günlük Sonuçlar";
+    stats1.innerText = "📈 Başarı Oranı: %87";
+    stats2.innerText = "⚖️ Ortalama RR: 1:2.3";
+    stats3.innerText = "📊 Sinyal Sayısı: 126";
     }
 }
