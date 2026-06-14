@@ -28,6 +28,7 @@ const closedSignalsTitle = document.getElementById("closedSignalsTitle");
     stats1.innerText = "📈 Win Rate: 87%";
     stats2.innerText = "⚖️ Average RR: 1:2.3";
     stats3.innerText = "📊 Signals: 126";
+    closedSignalsTitle.innerText = "Recent Closed VIP Signals";    
 }
 
     if (lang === "ru") {
@@ -44,6 +45,7 @@ const closedSignalsTitle = document.getElementById("closedSignalsTitle");
     stats1.innerText = "📈 Процент побед: 87%";
     stats2.innerText = "⚖️ Средний RR: 1:2.3";
     stats3.innerText = "📊 Сигналов: 126";
+    closedSignalsTitle.innerText = "Последние закрытые VIP сигналы";    
                                            }
 
     if (lang === "tr") {
@@ -60,5 +62,6 @@ const closedSignalsTitle = document.getElementById("closedSignalsTitle");
     stats1.innerText = "📈 Başarı Oranı: %87";
     stats2.innerText = "⚖️ Ortalama RR: 1:2.3";
     stats3.innerText = "📊 Sinyal Sayısı: 126";
+    closedSignalsTitle.innerText = "Son Kapanan VIP Sinyalleri";    
     }
 }
