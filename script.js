@@ -14,9 +14,20 @@ const stats1 = document.getElementById("stats1");
 const stats2 = document.getElementById("stats2");
 const stats3 = document.getElementById("stats3");
     if (lang === "en") {
-        title.innerText = "PREMIUM VIP SIGNALS";
-        vipButton.innerText = "GET VIP ACCESS";
-    }
+    title.innerText = "PREMIUM VIP SIGNALS";
+    vipButton.innerText = "GET VIP ACCESS";
+
+    trustTitle.innerText = "Why Choose Us?";
+    trust1.innerText = "✅ Real market analysis";
+    trust2.innerText = "✅ TP & SL included";
+    trust3.innerText = "✅ XAU/USD M5 special signals";
+    trust4.innerText = "✅ Private Telegram access";
+
+    statsTitle.innerText = "Last 30 Days Performance";
+    stats1.innerText = "📈 Win Rate: 87%";
+    stats2.innerText = "⚖️ Average RR: 1:2.3";
+    stats3.innerText = "📊 Signals: 126";
+}
 
     if (lang === "ru") {
         title.innerText = "ПРЕМИУМ VIP СИГНАЛЫ";
