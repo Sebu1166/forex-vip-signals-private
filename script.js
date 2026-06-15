@@ -13,7 +13,12 @@ const statsTitle = document.getElementById("statsTitle");
 const stats1 = document.getElementById("stats1");
 const stats2 = document.getElementById("stats2");
 const stats3 = document.getElementById("stats3");
-const closedSignalsTitle = document.getElementById("closedSignalsTitle");    
+const closedSignalsTitle = document.getElementById("closedSignalsTitle"); 
+const infoTitle = document.getElementById("infoTitle");
+const info1 = document.getElementById("info1");
+const info2 = document.getElementById("info2");
+const info3 = document.getElementById("info3");
+const info4 = document.getElementById("info4");    
     if (lang === "en") {
     title.innerText = "PREMIUM VIP SIGNALS";
     vipButton.innerText = "GET VIP ACCESS";
