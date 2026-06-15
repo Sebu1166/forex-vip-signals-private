@@ -33,7 +33,16 @@ const info4 = document.getElementById("info4");
     stats1.innerText = "📈 Win Rate: 87%";
     stats2.innerText = "⚖️ Average RR: 1:2.3";
     stats3.innerText = "📊 Signals: 126";
-    closedSignalsTitle.innerText = "Recent Closed VIP Signals";    
+    closedSignalsTitle.innerText = "Recent Closed VIP Signals";
+    infoTitle.innerText = "What You Get";
+
+info1.innerText = "✅ Access to the VIP channel is provided after payment.";
+
+info2.innerText = "✅ All signals are delivered directly via Telegram.";
+
+info3.innerText = "✅ No hidden fees or additional commissions.";
+
+info4.innerText = "✅ You receive current VIP signals according to your plan.";    
 }
 
     if (lang === "ru") {
@@ -50,7 +59,16 @@ const info4 = document.getElementById("info4");
     stats1.innerText = "📈 Процент побед: 87%";
     stats2.innerText = "⚖️ Средний RR: 1:2.3";
     stats3.innerText = "📊 Сигналов: 126";
-    closedSignalsTitle.innerText = "Последние закрытые VIP сигналы";    
+    closedSignalsTitle.innerText = "Последние закрытые VIP сигналы";
+    infoTitle.innerText = "Что вы получаете";
+
+info1.innerText = "✅ Доступ к VIP-каналу предоставляется после оплаты.";
+
+info2.innerText = "✅ Все сигналы отправляются напрямую в Telegram.";
+
+info3.innerText = "✅ Без скрытых платежей и дополнительных комиссий.";
+
+info4.innerText = "✅ Вы получаете актуальные VIP-сигналы в соответствии с выбранным тарифом.";    
                                            }
 
     if (lang === "tr") {
@@ -67,6 +85,15 @@ const info4 = document.getElementById("info4");
     stats1.innerText = "📈 Başarı Oranı: %87";
     stats2.innerText = "⚖️ Ortalama RR: 1:2.3";
     stats3.innerText = "📊 Sinyal Sayısı: 126";
-    closedSignalsTitle.innerText = "Son Kapanan VIP Sinyalleri";    
+    closedSignalsTitle.innerText = "Son Kapanan VIP Sinyalleri";
+    infoTitle.innerText = "Neler Elde Edersiniz";
+
+info1.innerText = "✅ VIP kanalına erişim ödeme sonrası sağlanır.";
+
+info2.innerText = "✅ Tüm sinyaller doğrudan Telegram üzerinden gönderilir.";
+
+info3.innerText = "✅ Gizli ücret veya ek komisyon yoktur.";
+
+info4.innerText = "✅ Seçtiğiniz plana uygun güncel VIP sinyalleri alırsınız.";    
     }
 }
